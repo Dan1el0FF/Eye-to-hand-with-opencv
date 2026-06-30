@@ -1,7 +1,7 @@
-from Libraries.CamerasCalib_lib import CamerasCalib
-from Libraries.HandEye_hyper_lib import Handeye
-from Libraries.Transforms_hyper_lib import Transforms
-from Libraries.RobotClient_ultra_lib import RobotClient
+from CamerasCalib_lib import CamerasCalib
+from HandEye_hyper_lib import Handeye
+from Transforms_hyper_lib import Transforms
+from RobotClient_ultra_lib import RobotClient
 
 Cam = CamerasCalib()
 eth = Handeye()
@@ -57,7 +57,7 @@ if(ok): #si se detecta el charuco:
 else: #si no se detecta el charuco:
     print("No se detectó charuco")
 
-#Listo con este código podemos mover el robot a cualquier posición relativa al charuco con una presición de 3.82 mm
+#Listo con este código podemos mover el robot a cualquier posición relativa al charuco con una presición de ±3.82 mm
 
 
 
