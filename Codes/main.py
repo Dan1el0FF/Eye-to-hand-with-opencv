@@ -18,13 +18,13 @@ Home_foto_q = [1.6192622184753418, -1.7502428493895472,
 #resolution, camera index, Camera folder name, Charuco squares, Square_Size, Marker_Size, los demás parámetros los podemos dejar como están por defecto.
 
 #si queremos tomar las fotos desde cero ponemos true, pero si ya tenemos una carpeta con fotos por defecto pondremos false y en config.json tendremos que
-#poner el nombre de la carpeta donde tenemos las fotos guardadas. (Cuidado por que si pones tomar nuevas fotos se van a borrar las fotos que existen en la carpeta seleccionada en config.json)
+#poner el nombre de la carpeta donde tenemos las fotos guardadas.
 
 r = str(input("Desea Calibrar los parametros de la camara? (y/n)")).lower()
 
 if(r == "y"):
-    New_photos = True #cambiar manualmente
-    if(New_photos): #toma fotos nuevas y borra las fotos de la carpeta actual
+    New_photos = True #cambiar manualmente.
+    if(New_photos): #toma fotos nuevas.
         Cam.run()
     else:
         Cam.calibrate() #calibra con fotos tomadas previamente
@@ -57,7 +57,7 @@ if(ok): #si se detecta el charuco:
 else: #si no se detecta el charuco:
     print("No se detectó charuco")
 
-#Listo con este código podemos mover el robot a cualquier posición relativa al charuco con una presición de ±3.82 mm
+#Listo con este código podemos mover el robot a cualquier posición relativa al charuco con una presición de ±3.82 mm.
 
 
 
