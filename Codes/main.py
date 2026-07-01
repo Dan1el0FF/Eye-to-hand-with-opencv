@@ -40,8 +40,9 @@ if(r == "y"):
 
 r = str(input("Desea calibrar eye to hand? (y/n)")).lower()
 if(r == "y"):
+    robot.freedrive_enable()
     eth.start_eth_calib(robot)
-
+    robot.freedrive_disable()
 #al finalizar imprime en terminal cam2base y tambien lo guarda como parametro en config.json ahora con toda esta calibración lista ya podemos empezar a localizar objetos con una
 #presicion de 3.82 mm para lo cual vamos a necesitar realizar unas transformaciones de matrices asi que dare un ejemplo simple de como hacerlo utilzando la libreria Transforms
 
