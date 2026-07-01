@@ -44,7 +44,7 @@ Para correr el código se debe tener la version de python 3.11.9 ya que es compa
 
 Probé la presición utilizando un chessboard vs un ChAruco y la diferencia fue avismal por eso mismo todo el código utilza ChArucos los cuales puedes encontrar en el repositorio.
 
-Imágen del Charuco utilizado:
+Imágen de uno de los Charucos utilizados:
 
 
 <img width="235" height="281" alt="image" src="https://github.com/user-attachments/assets/b0afcfe1-9c45-4e0c-be9a-ff13b6b19f04" />
