@@ -61,10 +61,12 @@ Imágen de uno de los Charucos utilizados:
 
 Detalle importante: el proyecto usa dos tableros ChArUco diferentes. Uno (4×5, cuadros de 45 mm) se fija al gripper durante la calibración hand-eye. El otro (7×3, cuadros de 35 mm) se coloca en la mesa como marco de referencia de los objetos durante la operación. Cada uno tiene su propia sección en config.json.
 
+¿Cómo correr el proyecto?
+
+Para correr el proyecto todos los archivos deben estar a la misma altura y simplemente correr el main.
+Este código principal es un simple ejemplo de como mover el robot a cualquier posición deseada y esta pensado para basarse en el para proyectos con mayor complejidad.
 
 Requisitos:
-
-Para correr correctamente todos los archivos deben estar a la misma altura.
 
 Software
 
