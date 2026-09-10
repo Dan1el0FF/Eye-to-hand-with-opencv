@@ -1,6 +1,6 @@
 Eye-to-Hand Calibration con OpenCV y UR5e
 
-Sistema completo de calibración eye-to-hand para localizar objetos en el espacio de trabajo de un robot Universal Robots UR5e usando una cámara fija y tableros ChArUco. Una vez calibrado, el robot puede moverse a cualquier punto relativo a un marcador detectado por la cámara con una precisión de ± 3.82 mm. Este proyecto fue creado para una empresa de vehiculos con el objetivo de encontrar fallas en tableros automotrices antes de entrar al mercado.
+Sistema completo de calibración eye-to-hand para localizar objetos en el espacio de trabajo de un robot Universal Robots UR5e usando una cámara fija y tableros ChArUco. Una vez calibrado, el robot puede moverse a cualquier punto relativo a un marcador detectado por la cámara con una precisión de ± 3.82 mm. Este proyecto fue creado para una empresa automotriz con el objetivo de encontrar fallas en tableros de infotenimiento antes de entrar al mercado.
 
 
 <img width="630" height="383" alt="image" src="https://github.com/user-attachments/assets/c6b13764-0c88-4f08-b5ea-193d785a7478" />
